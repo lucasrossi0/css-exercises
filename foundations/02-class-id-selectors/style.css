@@ -1,0 +1,19 @@
+.text {
+  background-color: rgb(214, 110, 110);
+  font-size: 18px;
+}
+
+#blue {
+  color: rgb(12, 12, 175);
+  font-size: 32px;
+}
+
+#bigger {
+  font-size: 24px;
+}
+
+#green {
+  background-color: rgb(81, 223, 81);
+  font-weight: bolder;
+  font-size: 20px;
+}

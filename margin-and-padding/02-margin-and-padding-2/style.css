@@ -1,16 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 14px;
 }
 
-.title {
+.title.common {
   background: #e3f4ff;
+}
+
+.common {
+  padding: 14px;
+  margin-bottom: 14px;
 }
 
 .content {
@@ -19,9 +31,13 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
 }

@@ -61,4 +61,5 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   flex-shrink: 2;
+  flex-basis: auto;
 }
